@@ -1,0 +1,22 @@
+.card {
+  display: flex;
+  margin: 1rem;
+  gap: 1rem;
+  transition: all 0.7s;
+  img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+  div {
+    padding: 0.5rem 0;
+    width: 20rem;
+    p {
+      margin-top: 0.2rem;
+      color: gray;
+    }
+  }
+  &:hover {
+    transform: scale(105%);
+  }
+}

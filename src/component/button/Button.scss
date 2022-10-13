@@ -1,0 +1,14 @@
+@import "../../scss/variables";
+.buttons {
+  margin-top: 1rem;
+  button {
+    background-color: $buttonColor;
+    border: none;
+    width: 10rem;
+    height: 3rem;
+    border-radius: 1rem;
+    margin-right: 1.5rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+}
